@@ -1,0 +1,222 @@
+Available GPU count:1
+============================================================
+SwinCXR - Chest X-ray Classification System
+============================================================
+Mode: TRAIN
+Images path: /scratch/psheta12/CXR8/images/images
+Starting training for 30 epochs...
+Batch size: 32, Learning rate: 0.0001, Weight decay: 0.0001, Val fraction: 0.1, Split seed: 42
+Epoch 1/30
+----------
+train Loss: 0.1438
+val Loss: 0.1342
+saving
+
+Epoch 2/30
+----------
+train Loss: 0.1343
+val Loss: 0.1307
+saving
+
+Epoch 3/30
+----------
+train Loss: 0.1302
+val Loss: 0.1318
+
+Epoch 4/30
+----------
+train Loss: 0.1275
+val Loss: 0.1291
+saving
+
+Epoch 5/30
+----------
+train Loss: 0.1248
+val Loss: 0.1301
+
+Epoch 6/30
+----------
+train Loss: 0.1219
+val Loss: 0.1292
+
+Epoch 7/30
+----------
+train Loss: 0.1190
+val Loss: 0.1308
+
+Early stopping triggered after 7 epochs.
+Training complete in 143m 41s
+Best val Loss: 0.1291
+Training completed. Best epoch: 4
+Running evaluation on test dataset...
+0 images processed.
+320 images processed.
+640 images processed.
+960 images processed.
+1280 images processed.
+1600 images processed.
+1920 images processed.
+2240 images processed.
+2560 images processed.
+2880 images processed.
+3200 images processed.
+3520 images processed.
+3840 images processed.
+4160 images processed.
+4480 images processed.
+4800 images processed.
+5120 images processed.
+5440 images processed.
+5760 images processed.
+6080 images processed.
+6400 images processed.
+6720 images processed.
+7040 images processed.
+7360 images processed.
+7680 images processed.
+8000 images processed.
+8320 images processed.
+8640 images processed.
+8960 images processed.
+9280 images processed.
+9600 images processed.
+9920 images processed.
+10240 images processed.
+10560 images processed.
+10880 images processed.
+11200 images processed.
+11520 images processed.
+11840 images processed.
+12160 images processed.
+12480 images processed.
+12800 images processed.
+13120 images processed.
+13440 images processed.
+13760 images processed.
+14080 images processed.
+14400 images processed.
+14720 images processed.
+15040 images processed.
+15360 images processed.
+15680 images processed.
+16000 images processed.
+16320 images processed.
+16640 images processed.
+16960 images processed.
+17280 images processed.
+17600 images processed.
+17920 images processed.
+18240 images processed.
+18560 images processed.
+18880 images processed.
+19200 images processed.
+19520 images processed.
+19840 images processed.
+20160 images processed.
+20480 images processed.
+20800 images processed.
+21120 images processed.
+21440 images processed.
+21760 images processed.
+22080 images processed.
+22400 images processed.
+22720 images processed.
+23040 images processed.
+23360 images processed.
+23680 images processed.
+24000 images processed.
+24320 images processed.
+24640 images processed.
+24960 images processed.
+25280 images processed.
+Evaluation complete. Results saved to results/preds.csv and results/aucs.csv
+Available GPU count:1
+============================================================
+SwinCXR - Chest X-ray Classification System
+============================================================
+Mode: EVAL
+Images path: /scratch/psheta12/CXR8/images/images
+Loading model checkpoint for evaluation...
+Model loaded successfully
+Running evaluation on test dataset...
+0 images processed.
+320 images processed.
+640 images processed.
+960 images processed.
+1280 images processed.
+1600 images processed.
+1920 images processed.
+2240 images processed.
+2560 images processed.
+2880 images processed.
+3200 images processed.
+3520 images processed.
+3840 images processed.
+4160 images processed.
+4480 images processed.
+4800 images processed.
+5120 images processed.
+5440 images processed.
+5760 images processed.
+6080 images processed.
+6400 images processed.
+6720 images processed.
+7040 images processed.
+7360 images processed.
+7680 images processed.
+8000 images processed.
+8320 images processed.
+8640 images processed.
+8960 images processed.
+9280 images processed.
+9600 images processed.
+9920 images processed.
+10240 images processed.
+10560 images processed.
+10880 images processed.
+11200 images processed.
+11520 images processed.
+11840 images processed.
+12160 images processed.
+12480 images processed.
+12800 images processed.
+13120 images processed.
+13440 images processed.
+13760 images processed.
+14080 images processed.
+14400 images processed.
+14720 images processed.
+15040 images processed.
+15360 images processed.
+15680 images processed.
+16000 images processed.
+16320 images processed.
+16640 images processed.
+16960 images processed.
+17280 images processed.
+17600 images processed.
+17920 images processed.
+18240 images processed.
+18560 images processed.
+18880 images processed.
+19200 images processed.
+19520 images processed.
+19840 images processed.
+20160 images processed.
+20480 images processed.
+20800 images processed.
+21120 images processed.
+21440 images processed.
+21760 images processed.
+22080 images processed.
+22400 images processed.
+22720 images processed.
+23040 images processed.
+23360 images processed.
+23680 images processed.
+24000 images processed.
+24320 images processed.
+24640 images processed.
+24960 images processed.
+25280 images processed.
+Evaluation complete. Results saved to results/preds.csv and results/aucs.csv
