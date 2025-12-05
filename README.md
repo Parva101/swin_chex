@@ -22,12 +22,6 @@ Swin Transformer fine-tuning for NIH ChestX-ray14 (14-label multi-label classifi
   ```
 - SLURM example: see `main_job.sh` (A100, 16 CPUs, 120G RAM, runs train then eval).
 
-## Inference
-```bash
-python run_inference.py --image_path /path/to/chest_xray.jpg
-# or rely on the bundled test.jpg
-python run_inference.py
-```
 Outputs per-class probabilities for the 14 findings.
 
 ## Results (current run)
